@@ -1,6 +1,6 @@
 'use client';
 import Image from "next/image";
-import styles from './Feature.module.css';
+import styles from './Features.module.css';
 
 
 export default function FeaturesSection() {
@@ -11,7 +11,7 @@ export default function FeaturesSection() {
       </div>
 
       <div className='flex justify-around'>
-        <div className="featureSection">
+        <div className={styles.featureSection}>
           <Image
             src='/house.png'
             width={70}
@@ -23,7 +23,7 @@ export default function FeaturesSection() {
           Worried about your house getting robbed while you are away? Your trusted friends will be there to make it look habited.
           </p>
         </div>
-         <div className="featureSection">
+         <div className={styles.featureSection}>
           <Image
             src='/clipboard.png'
             width={70}
@@ -35,7 +35,7 @@ export default function FeaturesSection() {
             You will have a clear picture of what needs to be done, and what is already done. No task left behind!
           </p>
         </div>
-         <div className="featureSection">
+         <div className={styles.featureSection}>
           <Image
             src='/paw.png'
             width={70}

@@ -65,22 +65,7 @@ section{
   padding-bottom: 6rem;
 }
 
-.featureSection{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 5rem;
-  width: 20%;
-}
 
-.featureSection h4{
-  margin-top: 0.75rem;
-}
-.featureSection p{
-  text-align: center;
-  font-size: 15px;;
-}
 
 
 .footerIcons{

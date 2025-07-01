@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 // These styles apply to every route in the application
 import './globals.css'
-import Footer from './components/layout/Footer'
+import Footer from './components/footer/Footer'
  
 export const metadata: Metadata = {
   title: 'Extended Away',
