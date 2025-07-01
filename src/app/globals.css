@@ -47,3 +47,37 @@ p {
   margin-bottom: 1rem;
   text-align: justify;
 }
+
+
+h2{
+  font-size: 2.5rem!important;
+}
+
+h3{font-size: 2rem;}
+
+h4{
+  font-size: 1.5rem;
+}
+
+
+section{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.featureSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  width: 20%;
+}
+
+.featureSection h4{
+  margin-top: 0.75rem;
+}
+.featureSection p{
+  text-align: center;
+  font-size: 15px;;
+}
