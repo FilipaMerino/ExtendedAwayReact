@@ -1,7 +1,9 @@
 "use client";
 
+import Button from "@/app/components/ui/Button";
 import Image from "next/image";
 import Link from "next/link";
+
 
 export default function HeroSection() {
   return (
@@ -16,8 +18,8 @@ export default function HeroSection() {
         <p className='w-[50rem] my-5 mr-[10px]'>
           Tired of returning home from a trip to find dead plants and an open window? ExtendedAway gives you peace of mind by making it easier for you and your friends, neighbors, and family to quickly check up on your home while you are away.
         </p>
-        <Link href="/about">Learn More</Link>
-        aqui vai ter um botão
+        <Link href="/about" className='mb-5'>Learn More</Link>
+        <Button text='Get started!' href='/' variant='primary' />
       </div>
 
    <div>
