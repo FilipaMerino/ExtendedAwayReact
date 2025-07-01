@@ -81,3 +81,24 @@ section{
   text-align: center;
   font-size: 15px;;
 }
+
+
+.footerIcons{
+  display: flex;
+  margin: 1rem 0 1rem 0;
+  gap:0.5rem
+}
+
+.footerIcons div{
+  display: flex;          /* Center the icon */
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;          /* Controls the size of the circle */
+  border-radius: 100%;  /* Makes it perfectly round */
+  background-color: var(--color-softGreen); /* Circle color */
+  cursor: pointer;        /* Optional: makes it feel clickable */
+}
+
+.footerIcons a{
+  color:var(--color-black)
+}
