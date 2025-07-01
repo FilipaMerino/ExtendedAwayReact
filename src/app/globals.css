@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
 @import "tailwindcss";
 
+
 :root {
   --font-body: 'Work Sans', 'Helvetica', 'sans-serif';
   --font-headers: 'Nunito', 'Helvetica', 'sans-serif';
   /* COLORS */
+  --color--green:#008285;
   --color-lightGreen: #F5FAF7;
   --color-softGreen: #F4FAF6;
   --color-black: #333333;
 }
-
-
 
 @layer utilities {
   .bg-lightGreen {
@@ -22,4 +22,28 @@
   .bg-black{
     background-color: var(--color-black);
   }
+  .bg-green{
+    background-color: var(--color--green);
+  }
+}
+
+body{
+  font-family: var(--font-body);
+}
+
+body section div {
+  padding:0px 3rem 0px 3rem
+}
+
+a{
+  color: var(--color--green);
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  text-align: justify;
 }
