@@ -1,1 +1,25 @@
-@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --font-body: 'Work Sans', 'Helvetica', 'sans-serif';
+  --font-headers: 'Nunito', 'Helvetica', 'sans-serif';
+  /* COLORS */
+  --color-lightGreen: #F5FAF7;
+  --color-softGreen: #F4FAF6;
+  --color-black: #333333;
+}
+
+
+
+@layer utilities {
+  .bg-lightGreen {
+    background-color: var(--color-lightGreen);
+  }
+  .bg-softGreen {
+    background-color: var(--color-softGreen);
+  }
+  .bg-black{
+    background-color: var(--color-black);
+  }
+}
