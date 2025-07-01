@@ -1,21 +1,23 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <section className='flex bg-lightGreen'>
-      <div>
+    <section className='bg-lightGreen flex justify-between'>
+      <div className='flex flex-col justify-center'>
         <Image
           src='/logo.png'
-          width={500}
+          width={350}
           height={500}
           alt="Logo"
         />
-        <p>
+        <p className='w-[50rem] my-5 mr-[10px]'>
           Tired of returning home from a trip to find dead plants and an open window? ExtendedAway gives you peace of mind by making it easier for you and your friends, neighbors, and family to quickly check up on your home while you are away.
         </p>
         <Link href="/about">Learn More</Link>
-        <button>Get started</button>
+        aqui vai ter um botão
       </div>
 
    <div>
@@ -24,6 +26,7 @@ export default function HeroSection() {
       width={500}
       height={500}
       alt="Logo"
+      className='object-cover h-[35rem]'
     />
    </div>
     </section>
